@@ -2,7 +2,7 @@ dill==0.2.5
 Django==1.8
 et-xmlfile==1.0.1
 jdcal==1.2
-lxml==3.5.0
+lxml
 openpyxl==2.3.3
 Pillow==3.1.1
 psycopg2==2.6.1
@@ -16,4 +16,3 @@ Unidecode==0.4.19
 wadofstuff-django-serializers==1.1.0
 wheel==0.24.0
 xlrd==0.9.4
-
