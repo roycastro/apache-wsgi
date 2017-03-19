@@ -5,6 +5,7 @@ RUN echo "sshuser:root" | chpasswd
 RUN apt-get update && \
     apt-get upgrade -y && \ 	
     apt-get install -y \
+    wget \
     openssh-server &&\
     rm -rf /var/lib/apt/lists/*
     
