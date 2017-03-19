@@ -1,3 +1,3 @@
-FROM grahamdumpleton/mod-wsgi-docker:python-3.4-onbuild
+FROM grahamdumpleton/mod-wsgi-docker:python-3.4
 
 USER $MOD_WSGI_USER:$MOD_WSGI_GROUP
